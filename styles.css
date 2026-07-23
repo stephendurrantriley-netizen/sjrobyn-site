@@ -1,0 +1,33 @@
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background and typography */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* A simple centered layout */
+.main-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Headline styling */
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+/* Intro paragraph */
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
